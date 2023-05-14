@@ -37,6 +37,7 @@ int checkk(char exp[])
             if (top == -1)
                 // Right more than left
                 return 0;
+        temp=pop();
             else if (!match(temp, ele))
                 // mismatched
                 return 0;
